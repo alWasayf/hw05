@@ -10,7 +10,7 @@ you can import them from the file names.js as an Array.
 
 we need these information to be seprated into an object type format, so we could use it for other uses 
 (like displaying them in a web page), write a program that takes many strings and transforms them into 
-an object format with the following structure
+a Json File with the following structure.
 ```javascript
 {
     product_name:itemName,
