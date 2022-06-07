@@ -20,6 +20,9 @@ a Json File with the following structure.
 }
 ```
 
+#### Bonus
+Write the output file into the same directroy as product.json (you may use any packages for this)
+
 ### Chess Board Visualizer
 
 In chess Programming to represent a board state at any given moment there's format called FEN string board 
@@ -46,5 +49,7 @@ using the previous application from HW02 (you can change it to become more gener
 but please import it from another file and use it in this exercise)
 use that board implementation to extend it's functionality to interpret 
 the string and print the correct board state on the board.
+
+to check your solution import the chessBoardStates.json for more example games
 
 for more info the FEN format, check out this [link](https://www.chess.com/terms/fen-chess)
