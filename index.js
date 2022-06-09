@@ -1,6 +1,6 @@
 
 const names = require('./names.json')
-const rl=require("fs");
+const fs=require("fs");
 let Finalform=[];
 const editNames =names.map(item=>item.split(','))
 
@@ -19,7 +19,7 @@ editNames.map(item=>{
 
 });
 
-rl.writeFile("./prodect.json", JSON.stringify(Finalform), function(err){
+fs.writeFile("./prodect.json", JSON.stringify(Finalform), function(err){
 if(err)throw err;
 console.log("Done");}
 ); 
